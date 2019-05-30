@@ -10,4 +10,10 @@ def main():
         print("Your answer is: 0")
         break
 
+    if i == "20":
+        print("You must enter 1 or 0!")
+        
+    if i == "3":
+        print("You must enter either 1 or 0!")
+
 main()
