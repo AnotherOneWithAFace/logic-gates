@@ -14,7 +14,10 @@ def main():
     
     if bool2 and bool1 == True:
         print("Your answer is: 1")
+    elif bool1 == True and bool2 == False or bool2 == True and bool1 == False:
+        print("Your answer is: 0")
+    elif bool1 and bool2 == False:
+        print("Your answer is: 0")
     else:
-        print("Your answer is 0")
-    
+        print("You need to enter either a 1 or a 0!")    
 main()
