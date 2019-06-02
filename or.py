@@ -1,17 +1,17 @@
 def main():
     print("This program emulates the function of an OR logic gate")
-    print("enter either 1 or 0, not ANYTHING ELSE")
+    print("enter either 1 or 0 twice, not ANYTHING ELSE")
     x = input()
     y = input()
-    if x == 1:
+    if x == "1":
         bool0 = True
-    elif x == 0:
+    elif x == "0":
         bool0 = False
     else:
         bool0 = "empty"        
-    if y == 0:
+    if y == "0":
         bool1 = False
-    elif y == 1:
+    elif y == "1":
         bool1 = True
     else:
         bool1 = "empty"    
